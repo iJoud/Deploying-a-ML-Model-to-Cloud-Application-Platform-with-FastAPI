@@ -53,4 +53,5 @@ pickle.dump(encoder, open(model_folder_path + 'encoder.pkl', 'wb'))
 pickle.dump(lb, open(model_folder_path + 'lb.pkl', 'wb'))
 
 # get the model performance on data slices of categorical features
-performance_on_data_slices(model, data, cat_features, encoder, lb)
+output_file_path = performance_on_data_slices(model, data, cat_features, encoder, lb)
+print('results saved on path: ', output_file_path)

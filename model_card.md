@@ -1,7 +1,7 @@
 # Model Card
 
 ## Model Details
-Joud Alghamdi created the model as a prerequisite to pass the MLOps Nanodegree project. It is a scikit-learn ensemble model called Extra Trees Classifier with the default hyperparameters.
+Joud Alghamdi created the model as a prerequisite to pass the MLOps Nanodegree project. It is a scikit-learn ensemble model called Extra Trees Classifier.
 
 ## Intended Use
 The model is used to predict individual salary, whether it's above 50K or less than 50K, based on given data.

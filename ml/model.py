@@ -1,6 +1,7 @@
 from sklearn.metrics import fbeta_score, precision_score, recall_score
 from sklearn.ensemble import ExtraTreesClassifier
 from .data import process_data
+import os 
 
 # Optional: implement hyperparameter tuning.
 def train_model(X_train, y_train):
@@ -20,7 +21,7 @@ def train_model(X_train, y_train):
     """
 
     # initialize model
-    model = ExtraTreesClassifier()
+    model = ExtraTreesClassifier(n_estimators=10)
     # train the model
     model.fit(X_train, y_train)
 
@@ -82,9 +83,15 @@ def performance_on_data_slices(model, data, cat_features, encoder, lb):
         trained encoder for the data.
     lb : sklearn.preprocessing._label.LabelBinarizer
         trained lb for the data.
+
+    Returns
+    -------
+    output_file_path : str
     """
 
-    with open("slice_output.txt", "w") as f:
+    output_file_path = os.path.join(os.getcwd(), "slice_output.txt")
+
+    with open(output_file_path, "w") as f:
         for feature in cat_features:
             unique_vals = data[feature].unique()
 
@@ -113,4 +120,6 @@ def performance_on_data_slices(model, data, cat_features, encoder, lb):
                 f.write(f"Precision: {precision}\n")
                 f.write(f"Recall: {recall}\n")
                 f.write(f"F-beta: {fbeta}\n\n")
+    
+    return output_file_path
 
