@@ -84,19 +84,33 @@ def performance_on_data_slices(model, data, cat_features, encoder, lb):
         trained lb for the data.
     """
 
-    for feature in cat_features:
-        unique_vals = data[feature].unique()
+    with open("slice_output.txt", "w") as f:
+        for feature in cat_features:
+            unique_vals = data[feature].unique()
 
-        for val in unique_vals:
-            current_data = data[data[feature]==val]
+            for val in unique_vals:
+                # filter data based on current data slice
+                current_data = data[data[feature] == val]
 
-            X_test, y_test, _, _ = process_data(
-                current_data, categorical_features=cat_features, label="salary", training=False, encoder=encoder, lb=lb
-            )
+                # process data
+                X_test, y_test, _, _ = process_data(
+                    current_data, categorical_features=cat_features, label="salary", training=False, encoder=encoder, lb=lb
+                )
 
-            predictions = inference(model, X_test)
-            precision, recall, fbeta = compute_model_metrics(y_test, predictions)
+                # get predictions and compute performance metrics
+                predictions = inference(model, X_test)
+                precision, recall, fbeta = compute_model_metrics(y_test, predictions)
 
-            print(f"model perofrmance for category {val} in column {feature}: ")
-            print("precision: ", precision, "\nrecall: ", recall, "\nfbeta: ", fbeta, "\n")
+                # printout results
+                print(f"Model performance for category {val} in column {feature}:")
+                print("Precision:", precision)
+                print("Recall:", recall)
+                print("F-beta:", fbeta)
+                print()
+
+                # write results to the file 
+                f.write(f"Model performance for category {val} in column {feature}:\n")
+                f.write(f"Precision: {precision}\n")
+                f.write(f"Recall: {recall}\n")
+                f.write(f"F-beta: {fbeta}\n\n")
 

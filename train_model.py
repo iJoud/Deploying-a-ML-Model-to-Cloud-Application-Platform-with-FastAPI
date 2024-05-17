@@ -8,10 +8,6 @@ from ml.model import train_model, inference, compute_model_metrics, performance_
 import pandas as pd
 import pickle
 
-def d():
-    import sys
-    sys.exit(0)
-
 
 data_path = './data/census.csv'
 model_folder_path = './model/'
