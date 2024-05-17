@@ -1,5 +1,6 @@
 from sklearn.metrics import fbeta_score, precision_score, recall_score
-
+from sklearn.ensemble import ExtraTreesClassifier
+from .data import process_data
 
 # Optional: implement hyperparameter tuning.
 def train_model(X_train, y_train):
@@ -18,7 +19,12 @@ def train_model(X_train, y_train):
         Trained machine learning model.
     """
 
-    pass
+    # initialize model
+    model = ExtraTreesClassifier()
+    # train the model
+    model.fit(X_train, y_train)
+
+    return model
 
 
 def compute_model_metrics(y, preds):
@@ -48,7 +54,7 @@ def inference(model, X):
 
     Inputs
     ------
-    model : ???
+    model : sklearn.ensemble._forest.ExtraTreesClassifier
         Trained machine learning model.
     X : np.array
         Data used for prediction.
@@ -57,4 +63,40 @@ def inference(model, X):
     preds : np.array
         Predictions from the model.
     """
-    pass
+    return model.predict(X)
+
+
+def performance_on_data_slices(model, data, cat_features, encoder, lb):
+    """
+    outputs the performance of the model on slices of the data.
+
+    Inputs
+    ------
+    model : sklearn.ensemble._forest.ExtraTreesClassifier
+        Trained machine learning model.
+    data : pd.DataFrame
+        test data.
+    cat_features : list
+        list of categorical features in the data.
+    encoder : sklearn.preprocessing._encoders.OneHotEncoder
+        trained encoder for the data.
+    lb : sklearn.preprocessing._label.LabelBinarizer
+        trained lb for the data.
+    """
+
+    for feature in cat_features:
+        unique_vals = data[feature].unique()
+
+        for val in unique_vals:
+            current_data = data[data[feature]==val]
+
+            X_test, y_test, _, _ = process_data(
+                current_data, categorical_features=cat_features, label="salary", training=False, encoder=encoder, lb=lb
+            )
+
+            predictions = inference(model, X_test)
+            precision, recall, fbeta = compute_model_metrics(y_test, predictions)
+
+            print(f"model perofrmance for category {val} in column {feature}: ")
+            print("precision: ", precision, "\nrecall: ", recall, "\nfbeta: ", fbeta, "\n")
+
