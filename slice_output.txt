@@ -1,509 +1,509 @@
-Model performance for category  State-gov in column workclass:
-Precision: 0.9371428571428572
-Recall: 0.9291784702549575
-F-beta: 0.9331436699857751
+Model performance for category State-gov in column workclass:
+Precision: 0.9498525073746312
+Recall: 0.9121813031161473
+F-beta: 0.930635838150289
 
-Model performance for category  Self-emp-not-inc in column workclass:
-Precision: 0.9338235294117647
-Recall: 0.8770718232044199
-F-beta: 0.9045584045584045
+Model performance for category Self-emp-not-inc in column workclass:
+Precision: 0.945906432748538
+Recall: 0.893646408839779
+F-beta: 0.9190340909090909
 
-Model performance for category  Private in column workclass:
-Precision: 0.9449445258530459
-Recall: 0.9095305258915978
-F-beta: 0.926899383983573
+Model performance for category Private in column workclass:
+Precision: 0.9411764705882353
+Recall: 0.9155752569010679
+F-beta: 0.9281993667653968
 
-Model performance for category  Federal-gov in column workclass:
-Precision: 0.9529085872576177
-Recall: 0.9272237196765498
-F-beta: 0.9398907103825137
+Model performance for category Federal-gov in column workclass:
+Precision: 0.9166666666666666
+Recall: 0.9487870619946092
+F-beta: 0.9324503311258278
 
-Model performance for category  Local-gov in column workclass:
-Precision: 0.9503424657534246
-Recall: 0.899513776337115
-F-beta: 0.9242298084929226
+Model performance for category Local-gov in column workclass:
+Precision: 0.9394957983193277
+Recall: 0.9059967585089141
+F-beta: 0.9224422442244224
 
-Model performance for category  ? in column workclass:
-Precision: 0.8979591836734694
-Recall: 0.9214659685863874
-F-beta: 0.9095607235142119
+Model performance for category ? in column workclass:
+Precision: 0.918918918918919
+Recall: 0.8900523560209425
+F-beta: 0.9042553191489362
 
-Model performance for category  Self-emp-inc in column workclass:
-Precision: 0.9570957095709571
-Recall: 0.932475884244373
-F-beta: 0.9446254071661238
+Model performance for category Self-emp-inc in column workclass:
+Precision: 0.9527687296416938
+Recall: 0.9405144694533762
+F-beta: 0.9466019417475728
 
-Model performance for category  Without-pay in column workclass:
+Model performance for category Without-pay in column workclass:
 Precision: 1.0
 Recall: 1.0
 F-beta: 1.0
 
-Model performance for category  Never-worked in column workclass:
+Model performance for category Never-worked in column workclass:
 Precision: 1.0
 Recall: 1.0
 F-beta: 1.0
 
-Model performance for category  Bachelors in column education:
-Precision: 0.9460806524694155
-Recall: 0.940117064385412
-F-beta: 0.943089430894309
+Model performance for category Bachelors in column education:
+Precision: 0.9445446348061316
+Recall: 0.9432687978388113
+F-beta: 0.9439062851993691
 
-Model performance for category  HS-grad in column education:
-Precision: 0.9320388349514563
-Recall: 0.8597014925373134
-F-beta: 0.8944099378881987
+Model performance for category HS-grad in column education:
+Precision: 0.9215189873417722
+Recall: 0.8692537313432835
+F-beta: 0.8946236559139785
 
-Model performance for category  11th in column education:
-Precision: 0.9423076923076923
-Recall: 0.8166666666666667
-F-beta: 0.8749999999999999
+Model performance for category 11th in column education:
+Precision: 0.9629629629629629
+Recall: 0.8666666666666667
+F-beta: 0.912280701754386
 
-Model performance for category  Masters in column education:
-Precision: 0.9589905362776026
-Recall: 0.9509906152241918
-F-beta: 0.9549738219895287
+Model performance for category Masters in column education:
+Precision: 0.9659936238044633
+Recall: 0.9478623566214807
+F-beta: 0.9568421052631578
 
-Model performance for category  9th in column education:
-Precision: 0.9230769230769231
-Recall: 0.8888888888888888
-F-beta: 0.9056603773584906
-
-Model performance for category  Some-college in column education:
-Precision: 0.9318181818181818
-Recall: 0.8868060562364816
-F-beta: 0.9087550794237162
-
-Model performance for category  Assoc-acdm in column education:
-Precision: 0.9382716049382716
-Recall: 0.8603773584905661
-F-beta: 0.8976377952755905
-
-Model performance for category  Assoc-voc in column education:
-Precision: 0.9420289855072463
-Recall: 0.9002770083102493
-F-beta: 0.9206798866855525
-
-Model performance for category  7th-8th in column education:
-Precision: 0.9428571428571428
-Recall: 0.825
-F-beta: 0.88
-
-Model performance for category  Doctorate in column education:
-Precision: 0.9733333333333334
-Recall: 0.954248366013072
-F-beta: 0.9636963696369638
-
-Model performance for category  Prof-school in column education:
-Precision: 0.9695550351288056
-Recall: 0.9787234042553191
-F-beta: 0.9741176470588234
-
-Model performance for category  5th-6th in column education:
-Precision: 0.8461538461538461
-Recall: 0.6875
-F-beta: 0.7586206896551724
-
-Model performance for category  10th in column education:
-Precision: 0.9622641509433962
-Recall: 0.8225806451612904
-F-beta: 0.8869565217391304
-
-Model performance for category  1st-4th in column education:
-Precision: 0.8
+Model performance for category 9th in column education:
+Precision: 1.0
 Recall: 0.6666666666666666
-F-beta: 0.7272727272727272
+F-beta: 0.8
 
-Model performance for category  Preschool in column education:
-Precision: 1.0
-Recall: 1.0
-F-beta: 1.0
+Model performance for category Some-college in column education:
+Precision: 0.9357520786092215
+Recall: 0.8925739005046863
+F-beta: 0.9136531365313654
 
-Model performance for category  12th in column education:
-Precision: 0.96875
-Recall: 0.9393939393939394
-F-beta: 0.9538461538461539
+Model performance for category Assoc-acdm in column education:
+Precision: 0.9365079365079365
+Recall: 0.8905660377358491
+F-beta: 0.9129593810444875
 
-Model performance for category  Never-married in column marital-status:
-Precision: 0.9493087557603687
-Recall: 0.8391038696537678
-F-beta: 0.8908108108108108
+Model performance for category Assoc-voc in column education:
+Precision: 0.9209039548022598
+Recall: 0.9030470914127424
+F-beta: 0.9118881118881119
 
-Model performance for category  Married-civ-spouse in column marital-status:
-Precision: 0.9431765967223158
-Recall: 0.9202032277346085
-F-beta: 0.9315482943801529
-
-Model performance for category  Divorced in column marital-status:
-Precision: 0.9474940334128878
-Recall: 0.857451403887689
-F-beta: 0.9002267573696145
-
-Model performance for category  Married-spouse-absent in column marital-status:
-Precision: 0.9583333333333334
-Recall: 0.6764705882352942
-F-beta: 0.7931034482758621
-
-Model performance for category  Separated in column marital-status:
-Precision: 0.953125
-Recall: 0.9242424242424242
-F-beta: 0.9384615384615383
-
-Model performance for category  Married-AF-spouse in column marital-status:
-Precision: 1.0
-Recall: 0.8
-F-beta: 0.888888888888889
-
-Model performance for category  Widowed in column marital-status:
-Precision: 0.9605263157894737
-Recall: 0.8588235294117647
-F-beta: 0.906832298136646
-
-Model performance for category  Adm-clerical in column occupation:
-Precision: 0.934156378600823
-Recall: 0.8954635108481263
-F-beta: 0.9144008056394763
-
-Model performance for category  Exec-managerial in column occupation:
-Precision: 0.9536560247167868
-Recall: 0.9410569105691057
-F-beta: 0.9473145780051151
-
-Model performance for category  Handlers-cleaners in column occupation:
-Precision: 0.9358974358974359
-Recall: 0.8488372093023255
-F-beta: 0.8902439024390244
-
-Model performance for category  Prof-specialty in column occupation:
-Precision: 0.9524581307401405
-Recall: 0.9483593329747176
-F-beta: 0.9504043126684637
-
-Model performance for category  Other-service in column occupation:
-Precision: 0.9576271186440678
-Recall: 0.8248175182481752
-F-beta: 0.8862745098039216
-
-Model performance for category  Sales in column occupation:
-Precision: 0.9462943071965628
-Recall: 0.896236012207528
-F-beta: 0.9205851619644724
-
-Model performance for category  Craft-repair in column occupation:
-Precision: 0.9314750290360047
-Recall: 0.8632938643702907
-F-beta: 0.8960893854748603
-
-Model performance for category  Transport-moving in column occupation:
-Precision: 0.9379310344827586
-Recall: 0.85
-F-beta: 0.8918032786885246
-
-Model performance for category  Farming-fishing in column occupation:
-Precision: 0.9532710280373832
-Recall: 0.8869565217391304
-F-beta: 0.9189189189189189
-
-Model performance for category  Machine-op-inspct in column occupation:
-Precision: 0.9004329004329005
-Recall: 0.832
-F-beta: 0.8648648648648648
-
-Model performance for category  Tech-support in column occupation:
-Precision: 0.9540229885057471
-Recall: 0.8798586572438163
-F-beta: 0.9154411764705882
-
-Model performance for category  ? in column occupation:
-Precision: 0.8979591836734694
-Recall: 0.9214659685863874
-F-beta: 0.9095607235142119
-
-Model performance for category  Protective-serv in column occupation:
-Precision: 0.925
-Recall: 0.8767772511848341
-F-beta: 0.900243309002433
-
-Model performance for category  Armed-Forces in column occupation:
-Precision: 1.0
-Recall: 1.0
-F-beta: 1.0
-
-Model performance for category  Priv-house-serv in column occupation:
-Precision: 1.0
-Recall: 1.0
-F-beta: 1.0
-
-Model performance for category  Not-in-family in column relationship:
-Precision: 0.941101152368758
-Recall: 0.8586448598130841
-F-beta: 0.8979841172877215
-
-Model performance for category  Husband in column relationship:
-Precision: 0.9429908161497141
-Recall: 0.9195674214261574
-F-beta: 0.9311318333475919
-
-Model performance for category  Wife in column relationship:
-Precision: 0.944141689373297
-Recall: 0.9302013422818792
-F-beta: 0.9371196754563894
-
-Model performance for category  Own-child in column relationship:
-Precision: 0.9807692307692307
-Recall: 0.7611940298507462
-F-beta: 0.8571428571428572
-
-Model performance for category  Unmarried in column relationship:
-Precision: 0.978021978021978
-Recall: 0.8165137614678899
-F-beta: 0.8900000000000001
-
-Model performance for category  Other-relative in column relationship:
-Precision: 0.9705882352941176
-Recall: 0.8918918918918919
-F-beta: 0.9295774647887325
-
-Model performance for category  White in column race:
-Precision: 0.9447843822843823
-Recall: 0.9111985387101307
-F-beta: 0.9276875759959945
-
-Model performance for category  Black in column race:
-Precision: 0.9550561797752809
-Recall: 0.8785529715762274
-F-beta: 0.9152086137281292
-
-Model performance for category  Asian-Pac-Islander in column race:
-Precision: 0.910394265232975
-Recall: 0.9202898550724637
-F-beta: 0.9153153153153154
-
-Model performance for category  Amer-Indian-Eskimo in column race:
-Precision: 0.9393939393939394
-Recall: 0.8611111111111112
-F-beta: 0.8985507246376813
-
-Model performance for category  Other in column race:
-Precision: 1.0
-Recall: 0.88
-F-beta: 0.9361702127659575
-
-Model performance for category  Male in column sex:
-Precision: 0.943797546964757
-Recall: 0.9124887421194836
-F-beta: 0.9278791116538198
-
-Model performance for category  Female in column sex:
-Precision: 0.9460916442048517
-Recall: 0.8931297709923665
-F-beta: 0.918848167539267
-
-Model performance for category  United-States in column native-country:
-Precision: 0.9451598900303864
-Recall: 0.9108910891089109
-F-beta: 0.9277091322255361
-
-Model performance for category  Cuba in column native-country:
-Precision: 1.0
-Recall: 0.88
-F-beta: 0.9361702127659575
-
-Model performance for category  Jamaica in column native-country:
-Precision: 0.875
-Recall: 0.7
-F-beta: 0.7777777777777777
-
-Model performance for category  India in column native-country:
-Precision: 0.9736842105263158
-Recall: 0.925
-F-beta: 0.9487179487179489
-
-Model performance for category  ? in column native-country:
-Precision: 0.9347826086956522
-Recall: 0.8835616438356164
-F-beta: 0.9084507042253521
-
-Model performance for category  Mexico in column native-country:
-Precision: 0.9310344827586207
-Recall: 0.8181818181818182
-F-beta: 0.8709677419354839
-
-Model performance for category  South in column native-country:
+Model performance for category 7th-8th in column education:
 Precision: 0.875
 Recall: 0.875
 F-beta: 0.875
 
-Model performance for category  Puerto-Rico in column native-country:
-Precision: 1.0
-Recall: 0.9166666666666666
-F-beta: 0.9565217391304348
+Model performance for category Doctorate in column education:
+Precision: 0.9551282051282052
+Recall: 0.9738562091503268
+F-beta: 0.964401294498382
 
-Model performance for category  Honduras in column native-country:
-Precision: 1.0
-Recall: 1.0
-F-beta: 1.0
+Model performance for category Prof-school in column education:
+Precision: 0.9676674364896074
+Recall: 0.9905437352245863
+F-beta: 0.9789719626168224
 
-Model performance for category  England in column native-country:
-Precision: 0.896551724137931
-Recall: 0.8666666666666667
-F-beta: 0.8813559322033899
-
-Model performance for category  Canada in column native-country:
-Precision: 0.9736842105263158
-Recall: 0.9487179487179487
-F-beta: 0.9610389610389611
-
-Model performance for category  Germany in column native-country:
-Precision: 0.9302325581395349
-Recall: 0.9090909090909091
-F-beta: 0.9195402298850575
-
-Model performance for category  Iran in column native-country:
-Precision: 0.8888888888888888
-Recall: 0.8888888888888888
-F-beta: 0.8888888888888888
-
-Model performance for category  Philippines in column native-country:
-Precision: 0.8813559322033898
-Recall: 0.8524590163934426
+Model performance for category 5th-6th in column education:
+Precision: 0.9285714285714286
+Recall: 0.8125
 F-beta: 0.8666666666666666
 
-Model performance for category  Italy in column native-country:
-Precision: 1.0
-Recall: 0.96
-F-beta: 0.9795918367346939
+Model performance for category 10th in column education:
+Precision: 0.9272727272727272
+Recall: 0.8225806451612904
+F-beta: 0.8717948717948718
 
-Model performance for category  Poland in column native-country:
-Precision: 1.0
-Recall: 0.9166666666666666
-F-beta: 0.9565217391304348
-
-Model performance for category  Columbia in column native-country:
+Model performance for category 1st-4th in column education:
 Precision: 1.0
 Recall: 1.0
 F-beta: 1.0
 
-Model performance for category  Cambodia in column native-country:
-Precision: 0.8571428571428571
-Recall: 0.8571428571428571
-F-beta: 0.8571428571428571
-
-Model performance for category  Thailand in column native-country:
+Model performance for category Preschool in column education:
 Precision: 1.0
 Recall: 1.0
 F-beta: 1.0
 
-Model performance for category  Ecuador in column native-country:
-Precision: 0.8
-Recall: 1.0
-F-beta: 0.888888888888889
+Model performance for category 12th in column education:
+Precision: 0.9310344827586207
+Recall: 0.8181818181818182
+F-beta: 0.8709677419354839
 
-Model performance for category  Laos in column native-country:
-Precision: 0.6666666666666666
-Recall: 1.0
-F-beta: 0.8
+Model performance for category Never-married in column marital-status:
+Precision: 0.9455782312925171
+Recall: 0.8492871690427699
+F-beta: 0.8948497854077254
 
-Model performance for category  Taiwan in column native-country:
+Model performance for category Married-civ-spouse in column marital-status:
+Precision: 0.9386243386243386
+Recall: 0.9278242677824268
+F-beta: 0.9331930562861651
+
+Model performance for category Divorced in column marital-status:
+Precision: 0.9604938271604938
+Recall: 0.8401727861771058
+F-beta: 0.8963133640552996
+
+Model performance for category Married-spouse-absent in column marital-status:
 Precision: 1.0
-Recall: 0.9
-F-beta: 0.9473684210526316
+Recall: 0.7352941176470589
+F-beta: 0.8474576271186441
 
-Model performance for category  Haiti in column native-country:
-Precision: 1.0
-Recall: 1.0
-F-beta: 1.0
+Model performance for category Separated in column marital-status:
+Precision: 0.9661016949152542
+Recall: 0.8636363636363636
+F-beta: 0.912
 
-Model performance for category  Portugal in column native-country:
-Precision: 1.0
-Recall: 0.75
-F-beta: 0.8571428571428571
-
-Model performance for category  Dominican-Republic in column native-country:
-Precision: 1.0
-Recall: 1.0
-F-beta: 1.0
-
-Model performance for category  El-Salvador in column native-country:
-Precision: 1.0
-Recall: 1.0
-F-beta: 1.0
-
-Model performance for category  France in column native-country:
-Precision: 1.0
-Recall: 0.8333333333333334
-F-beta: 0.9090909090909091
-
-Model performance for category  Guatemala in column native-country:
-Precision: 1.0
-Recall: 0.6666666666666666
-F-beta: 0.8
-
-Model performance for category  China in column native-country:
-Precision: 0.782608695652174
-Recall: 0.9
-F-beta: 0.8372093023255814
-
-Model performance for category  Japan in column native-country:
-Precision: 0.96
-Recall: 1.0
-F-beta: 0.9795918367346939
-
-Model performance for category  Yugoslavia in column native-country:
-Precision: 1.0
-Recall: 1.0
-F-beta: 1.0
-
-Model performance for category  Peru in column native-country:
-Precision: 0.6666666666666666
-Recall: 1.0
-F-beta: 0.8
-
-Model performance for category  Outlying-US(Guam-USVI-etc) in column native-country:
-Precision: 1.0
-Recall: 1.0
-F-beta: 1.0
-
-Model performance for category  Scotland in column native-country:
-Precision: 1.0
-Recall: 1.0
-F-beta: 1.0
-
-Model performance for category  Trinadad&Tobago in column native-country:
-Precision: 0.6666666666666666
-Recall: 1.0
-F-beta: 0.8
-
-Model performance for category  Greece in column native-country:
-Precision: 1.0
-Recall: 0.875
-F-beta: 0.9333333333333333
-
-Model performance for category  Nicaragua in column native-country:
-Precision: 1.0
-Recall: 1.0
-F-beta: 1.0
-
-Model performance for category  Vietnam in column native-country:
-Precision: 1.0
-Recall: 1.0
-F-beta: 1.0
-
-Model performance for category  Hong in column native-country:
-Precision: 0.8571428571428571
-Recall: 1.0
-F-beta: 0.923076923076923
-
-Model performance for category  Ireland in column native-country:
+Model performance for category Married-AF-spouse in column marital-status:
 Precision: 1.0
 Recall: 0.8
 F-beta: 0.888888888888889
 
-Model performance for category  Hungary in column native-country:
+Model performance for category Widowed in column marital-status:
+Precision: 0.9736842105263158
+Recall: 0.8705882352941177
+F-beta: 0.9192546583850931
+
+Model performance for category Adm-clerical in column occupation:
+Precision: 0.9108910891089109
+Recall: 0.9072978303747534
+F-beta: 0.9090909090909091
+
+Model performance for category Exec-managerial in column occupation:
+Precision: 0.9550102249488752
+Recall: 0.9491869918699187
+F-beta: 0.9520897043832823
+
+Model performance for category Handlers-cleaners in column occupation:
+Precision: 0.9444444444444444
+Recall: 0.7906976744186046
+F-beta: 0.8607594936708861
+
+Model performance for category Prof-specialty in column occupation:
+Precision: 0.9450134770889488
+Recall: 0.9429800968262507
+F-beta: 0.9439956919763058
+
+Model performance for category Other-service in column occupation:
+Precision: 0.9316239316239316
+Recall: 0.7956204379562044
+F-beta: 0.8582677165354332
+
+Model performance for category Sales in column occupation:
+Precision: 0.9463722397476341
+Recall: 0.9155645981688708
+F-beta: 0.9307135470527405
+
+Model performance for category Craft-repair in column occupation:
+Precision: 0.9199549041713642
+Recall: 0.8783638320775027
+F-beta: 0.8986784140969163
+
+Model performance for category Transport-moving in column occupation:
+Precision: 0.91
+Recall: 0.853125
+F-beta: 0.8806451612903226
+
+Model performance for category Farming-fishing in column occupation:
+Precision: 0.9528301886792453
+Recall: 0.8782608695652174
+F-beta: 0.9140271493212669
+
+Model performance for category Machine-op-inspct in column occupation:
+Precision: 0.9590909090909091
+Recall: 0.844
+F-beta: 0.8978723404255319
+
+Model performance for category Tech-support in column occupation:
+Precision: 0.9507575757575758
+Recall: 0.8869257950530035
+F-beta: 0.9177330895795247
+
+Model performance for category ? in column occupation:
+Precision: 0.918918918918919
+Recall: 0.8900523560209425
+F-beta: 0.9042553191489362
+
+Model performance for category Protective-serv in column occupation:
+Precision: 0.9425837320574163
+Recall: 0.933649289099526
+F-beta: 0.938095238095238
+
+Model performance for category Armed-Forces in column occupation:
+Precision: 1.0
+Recall: 1.0
+F-beta: 1.0
+
+Model performance for category Priv-house-serv in column occupation:
+Precision: 1.0
+Recall: 1.0
+F-beta: 1.0
+
+Model performance for category Not-in-family in column relationship:
+Precision: 0.9506493506493506
+Recall: 0.8551401869158879
+F-beta: 0.900369003690037
+
+Model performance for category Husband in column relationship:
+Precision: 0.9398804440649018
+Recall: 0.9298749577559986
+F-beta: 0.9348509300942834
+
+Model performance for category Wife in column relationship:
+Precision: 0.9294436906377205
+Recall: 0.9194630872483222
+F-beta: 0.9244264507422403
+
+Model performance for category Own-child in column relationship:
+Precision: 0.9655172413793104
+Recall: 0.835820895522388
+F-beta: 0.896
+
+Model performance for category Unmarried in column relationship:
+Precision: 0.9779005524861878
+Recall: 0.8119266055045872
+F-beta: 0.8872180451127819
+
+Model performance for category Other-relative in column relationship:
+Precision: 0.9285714285714286
+Recall: 0.7027027027027027
+F-beta: 0.7999999999999999
+
+Model performance for category White in column race:
+Precision: 0.9410832613079804
+Recall: 0.9179429534916398
+F-beta: 0.9293690874173127
+
+Model performance for category Black in column race:
+Precision: 0.9405405405405406
+Recall: 0.8992248062015504
+F-beta: 0.9194187582562748
+
+Model performance for category Asian-Pac-Islander in column race:
+Precision: 0.9429657794676806
+Recall: 0.8985507246376812
+F-beta: 0.9202226345083487
+
+Model performance for category Amer-Indian-Eskimo in column race:
+Precision: 0.9090909090909091
+Recall: 0.8333333333333334
+F-beta: 0.8695652173913043
+
+Model performance for category Other in column race:
+Precision: 0.9523809523809523
+Recall: 0.8
+F-beta: 0.8695652173913043
+
+Model performance for category Male in column sex:
+Precision: 0.9415186772810777
+Recall: 0.9231462023416391
+F-beta: 0.9322419281491587
+
+Model performance for category Female in column sex:
+Precision: 0.9380127620783957
+Recall: 0.8727735368956743
+F-beta: 0.9042179261862917
+
+Model performance for category United-States in column native-country:
+Precision: 0.9411680503864872
+Recall: 0.9168874633942268
+F-beta: 0.9288691106872925
+
+Model performance for category Cuba in column native-country:
+Precision: 1.0
+Recall: 0.88
+F-beta: 0.9361702127659575
+
+Model performance for category Jamaica in column native-country:
+Precision: 0.8181818181818182
+Recall: 0.9
+F-beta: 0.8571428571428572
+
+Model performance for category India in column native-country:
+Precision: 0.925
+Recall: 0.925
+F-beta: 0.925
+
+Model performance for category ? in column native-country:
+Precision: 0.9343065693430657
+Recall: 0.8767123287671232
+F-beta: 0.9045936395759717
+
+Model performance for category Mexico in column native-country:
+Precision: 1.0
+Recall: 0.8181818181818182
+F-beta: 0.9
+
+Model performance for category South in column native-country:
+Precision: 0.8823529411764706
+Recall: 0.9375
+F-beta: 0.9090909090909091
+
+Model performance for category Puerto-Rico in column native-country:
+Precision: 0.8181818181818182
+Recall: 0.75
+F-beta: 0.7826086956521738
+
+Model performance for category Honduras in column native-country:
+Precision: 1.0
+Recall: 1.0
+F-beta: 1.0
+
+Model performance for category England in column native-country:
+Precision: 1.0
+Recall: 0.9
+F-beta: 0.9473684210526316
+
+Model performance for category Canada in column native-country:
+Precision: 0.925
+Recall: 0.9487179487179487
+F-beta: 0.9367088607594937
+
+Model performance for category Germany in column native-country:
+Precision: 0.9347826086956522
+Recall: 0.9772727272727273
+F-beta: 0.9555555555555557
+
+Model performance for category Iran in column native-country:
+Precision: 0.9444444444444444
+Recall: 0.9444444444444444
+F-beta: 0.9444444444444444
+
+Model performance for category Philippines in column native-country:
+Precision: 0.9672131147540983
+Recall: 0.9672131147540983
+F-beta: 0.9672131147540983
+
+Model performance for category Italy in column native-country:
+Precision: 0.9565217391304348
+Recall: 0.88
+F-beta: 0.9166666666666666
+
+Model performance for category Poland in column native-country:
+Precision: 0.9090909090909091
+Recall: 0.8333333333333334
+F-beta: 0.8695652173913043
+
+Model performance for category Columbia in column native-country:
+Precision: 0.6666666666666666
+Recall: 1.0
+F-beta: 0.8
+
+Model performance for category Cambodia in column native-country:
+Precision: 1.0
+Recall: 0.7142857142857143
+F-beta: 0.8333333333333333
+
+Model performance for category Thailand in column native-country:
+Precision: 1.0
+Recall: 1.0
+F-beta: 1.0
+
+Model performance for category Ecuador in column native-country:
+Precision: 1.0
+Recall: 1.0
+F-beta: 1.0
+
+Model performance for category Laos in column native-country:
+Precision: 1.0
+Recall: 1.0
+F-beta: 1.0
+
+Model performance for category Taiwan in column native-country:
+Precision: 0.9
+Recall: 0.9
+F-beta: 0.9
+
+Model performance for category Haiti in column native-country:
+Precision: 1.0
+Recall: 0.75
+F-beta: 0.8571428571428571
+
+Model performance for category Portugal in column native-country:
+Precision: 1.0
+Recall: 1.0
+F-beta: 1.0
+
+Model performance for category Dominican-Republic in column native-country:
+Precision: 1.0
+Recall: 1.0
+F-beta: 1.0
+
+Model performance for category El-Salvador in column native-country:
+Precision: 0.8
+Recall: 0.8888888888888888
+F-beta: 0.8421052631578948
+
+Model performance for category France in column native-country:
+Precision: 1.0
+Recall: 1.0
+F-beta: 1.0
+
+Model performance for category Guatemala in column native-country:
 Precision: 1.0
 Recall: 0.6666666666666666
 F-beta: 0.8
 
-Model performance for category  Holand-Netherlands in column native-country:
+Model performance for category China in column native-country:
+Precision: 1.0
+Recall: 0.95
+F-beta: 0.9743589743589743
+
+Model performance for category Japan in column native-country:
+Precision: 0.9166666666666666
+Recall: 0.9166666666666666
+F-beta: 0.9166666666666666
+
+Model performance for category Yugoslavia in column native-country:
+Precision: 1.0
+Recall: 0.8333333333333334
+F-beta: 0.9090909090909091
+
+Model performance for category Peru in column native-country:
+Precision: 1.0
+Recall: 1.0
+F-beta: 1.0
+
+Model performance for category Outlying-US(Guam-USVI-etc) in column native-country:
+Precision: 1.0
+Recall: 1.0
+F-beta: 1.0
+
+Model performance for category Scotland in column native-country:
+Precision: 1.0
+Recall: 1.0
+F-beta: 1.0
+
+Model performance for category Trinadad&Tobago in column native-country:
+Precision: 1.0
+Recall: 0.5
+F-beta: 0.6666666666666666
+
+Model performance for category Greece in column native-country:
+Precision: 0.75
+Recall: 0.75
+F-beta: 0.75
+
+Model performance for category Nicaragua in column native-country:
+Precision: 0.5
+Recall: 0.5
+F-beta: 0.5
+
+Model performance for category Vietnam in column native-country:
+Precision: 1.0
+Recall: 0.8
+F-beta: 0.888888888888889
+
+Model performance for category Hong in column native-country:
+Precision: 1.0
+Recall: 0.8333333333333334
+F-beta: 0.9090909090909091
+
+Model performance for category Ireland in column native-country:
+Precision: 1.0
+Recall: 1.0
+F-beta: 1.0
+
+Model performance for category Hungary in column native-country:
+Precision: 1.0
+Recall: 1.0
+F-beta: 1.0
+
+Model performance for category Holand-Netherlands in column native-country:
 Precision: 1.0
 Recall: 1.0
 F-beta: 1.0

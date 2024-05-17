@@ -52,7 +52,7 @@ with open(os.path.join(model_folder_path, 'encoder.pkl'), 'rb') as f:
 
 @app.get("/")
 async def greetings():
-    return "Welcome to my FastAPI app!"
+    return {"message:": "Welcome to my FastAPI app!"}
 
 
 @app.post("/predictions")

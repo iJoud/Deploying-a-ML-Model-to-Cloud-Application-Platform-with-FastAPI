@@ -21,7 +21,7 @@ def train_model(X_train, y_train):
     """
 
     # initialize model
-    model = ExtraTreesClassifier(n_estimators=10)
+    model = ExtraTreesClassifier(n_estimators=50)
     # train the model
     model.fit(X_train, y_train)
 

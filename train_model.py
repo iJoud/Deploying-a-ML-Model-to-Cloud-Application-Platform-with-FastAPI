@@ -12,15 +12,6 @@ import pickle
 data_path = './data/census.csv'
 model_folder_path = './model/'
 
-# Add code to load in the data.
-data = pd.read_csv(data_path)
-
-# remove all spaces in col names
-data.columns = data.columns.str.strip()
-
-# Optional enhancement, use K-fold cross validation instead of a train-test split.
-train, test = train_test_split(data, test_size=0.20)
-
 cat_features = [
     "workclass",
     "education",
@@ -31,6 +22,20 @@ cat_features = [
     "sex",
     "native-country",
 ]
+
+# Add code to load in the data.
+data = pd.read_csv(data_path)
+
+# remove all spaces in col names
+data.columns = data.columns.str.strip()
+
+# remove all spaces in cat cols values
+for f in cat_features:
+    data[f] =  data[f].str.strip()
+
+# Optional enhancement, use K-fold cross validation instead of a train-test split.
+train, test = train_test_split(data, test_size=0.20)
+
 X_train, y_train, encoder, lb = process_data(
     train, categorical_features=cat_features, label="salary", training=True
 )
